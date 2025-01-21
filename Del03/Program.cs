@@ -6,45 +6,49 @@
     }
 }
 
-static void Square()
+static int Square()
 {
-    string text = Console.ReadLine();
-    int number = 0;
-    bool c = int.TryParse(text, out number);
+    int SquareNumber = GetNumberInput();
 
-    Console.WriteLine(number * number);
-    Console.ReadLine();
+    return SquareNumber * SquareNumber;
 }
-Multi();
-static void Multi()
+static int Multi()
 {
     Console.WriteLine("Number 1:");
-    string text1 = Console.ReadLine();
+    int number1 = GetNumberInput();
     Console.WriteLine("Number 2:");
-    string text2 = Console.ReadLine();
-    int number1 = 0;
-    int number2 = 0;
-    bool n1 = int.TryParse(text1, out number1);
-    bool n2 = int.TryParse(text2, out number2);
+    int number2 = GetNumberInput();
 
-    Console.WriteLine("Answer:");
-
-    Console.WriteLine(number1 * number2);
-    Console.ReadLine();
+    return number1 * number2;
 }
 
-static void RightTriangleArea()
+static int RightTriangleArea()
 {
     Console.WriteLine("Ange basen för triangeln");
-    string text3 = Console.ReadLine();
+    int length = GetNumberInput();
     Console.WriteLine("Ange höjden för triangeln");
-    string text4 = Console.ReadLine();
-    int number3 = 0;
-    int number4 = 0;
-    bool n3 = int.TryParse(text3, out number3);
-    bool n4 = int.TryParse(text4, out number4);
+    int height = GetNumberInput();
 
-    Console.WriteLine("Answer:");
-    Console.WriteLine(number3 * number4);
-    Console.ReadLine();
+    return length * height / 2;
 }
+
+static int GetNumberInput()
+    {
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out int number))
+            {
+                return number;
+            }
+            else
+            {
+                Console.WriteLine("Ogiltig inmatning. Var god ange ett giltigt nummer:");
+            }
+        }
+    }
+
+    Hello32();
+    Square();
+    Multi();
+    RightTriangleArea();
