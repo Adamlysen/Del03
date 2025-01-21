@@ -1,0 +1,15 @@
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\bin\Debug\net8.0\Del03.exe
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\bin\Debug\net8.0\Del03.deps.json
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\bin\Debug\net8.0\Del03.runtimeconfig.json
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\bin\Debug\net8.0\Del03.dll
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\bin\Debug\net8.0\Del03.pdb
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.AssemblyInfoInputs.cache
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.AssemblyInfo.cs
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.csproj.CoreCompileInputs.cache
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.sourcelink.json
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.dll
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\refint\Del03.dll
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.pdb
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\Del03.genruntimeconfig.cache
+c:\Users\Adam.lysen\Desktop\PROG 2\Del03\Del03\obj\Debug\net8.0\ref\Del03.dll
